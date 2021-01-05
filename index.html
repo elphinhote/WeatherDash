@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherApp</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://www.google.com/recaptcha/api.js?render=6LcXJw4aAAAAALwI0Oc3JO2U5Tbp58Hzs2z9mly5"></script>
+  
+  <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+  <script>
+    Weglot.initialize({
+      api_key: '9ef77dcd80917888bd4113ba2827470a'
+    });
+  </script>
+</head>
+
+<body>
+  <section class="top-banner">
+    <div class="container">
+      <h1 class="heading">Weather</h1>
+      
+      <form>
+        <input type="text" placeholder="Search for a city" autofocus>
+        <button type="submit">SEARCH</button>
+        <script>
+          function onClick(e) {
+            e.preventDefault();
+            grecaptcha.ready(function () {
+              grecaptcha.execute('6LcXJw4aAAAAALwI0Oc3JO2U5Tbp58Hzs2z9mly5', { action: 'submit' }).then(function (token) {
+              });
+            });
+          }
+        </script>
+        <span class="msg"></span>
+      </form>
+    </div>
+  </section>
+  <section class="ajax-section">
+    <div class="container">
+      <ul class="cities"></ul>
+    </div>
+  </section>
+  <footer class="page-footer">
+    <div class="container">
+      
+  
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
