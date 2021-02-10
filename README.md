@@ -22,5 +22,5 @@ The following images shows the web application's appearance and functionality of
 ![Weateher app](https://user-images.githubusercontent.com/65749636/103632197-cfcb5f80-4ef8-11eb-8baf-1b72ab88bdc9.PNG)
 ![Weateher app part a](https://user-images.githubusercontent.com/65749636/103632207-d35ee680-4ef8-11eb-80f2-30e785f39d42.PNG)
 
-hhttps://user-images.githubusercontent.com/65749636/107462446-fe98af00-6b10-11eb-9d72-2fe974a3d4d2.mp4
+https://user-images.githubusercontent.com/65749636/107462446-fe98af00-6b10-11eb-9d72-2fe974a3d4d2.mp4
 
